@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💖 FLAMES - Love Calculator 💖</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Floating Hearts -->
+<div class="hearts">
+    <span>💖</span>
+    <span>💕</span>
+    <span>💗</span>
+    <span>💞</span>
+    <span>❤️</span>
+    <span>💘</span>
+    <span>🌸</span>
+    <span>🌷</span>
+</div>
+
+<!-- Tulips -->
+<div class="flower left">🌷</div>
+<div class="flower right">🌷</div>
+
+<!-- Main Card -->
+<div class="container">
+
+    <h1 class="title">
+        💖 FLAMES 💖
+    </h1>
+
+    <p class="subtitle">
+        Discover your beautiful bond ❤️
+    </p>
+
+    <div class="line"></div>
+
+    <div class="inputBox">
+        <label>Your Name</label>
+        <input
+            type="text"
+            id="name1"
+            placeholder="Enter first name">
+    </div>
+
+    <div class="inputBox">
+        <label>Partner Name</label>
+        <input
+            type="text"
+            id="name2"
+            placeholder="Enter second name">
+    </div>
+
+    <button
+        class="btn"
+        onclick="calculateFlames()">
+        💕 Calculate FLAMES 💕
+    </button>
+
+    <div class="resultCard">
+
+        <h2>Your Result</h2>
+
+        <div id="result">
+            ❤️ Waiting...
+        </div>
+
+        <p id="message">
+            Enter two names above.
+        </p>
+
+    </div>
+
+    <button
+        class="again"
+        onclick="playAgain()">
+        🔄 Play Again
+    </button>
+
+</div>
+
+<!-- Decorations -->
+<div class="corner topLeft">🌹</div>
+<div class="corner topRight">🌹</div>
+<div class="corner bottomLeft">🌸</div>
+<div class="corner bottomRight">🌸</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
